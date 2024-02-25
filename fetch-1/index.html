@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            height: auto;
+            border: 1px solid black;
+            width: 50%;
+            margin: auto;
+            margin-top: 10px;
+        }
+        th,td{
+            border: 1px solid black;
+        }
+        .btn{
+            border-radius: 5px;
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            cursor: pointer;
+            height: 25px;
+            width: 6%;
+        }
+        .btn:hover{
+            background-color: black;
+            color: white;
+        }
+        div{
+            text-align: center;
+            margin-top: 25px;
+        }
+        thead{
+            display: none;
+        }
+        tbody{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter Your Name"><br><br>
+    <label for="age">Age: </label>
+    <input type="text" id="age" placeholder="Enter Your Age"><br><br>
+    <input type="submit" class="btn">
+    </form>
+    <div>
+    <button class="btn">Show Data</button>
+    </div>
+    <table>
+        <thead>
+        <tr> 
+        <th>Name</th>
+        <th>Age</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+<script src="index.js"></script>
+</html>
